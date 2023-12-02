@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.whole {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111;
+}
+
+.container {
+    background-color: #111;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.radinput {
+    position: absolute;
+    width: 35px;
+    border: 1px solid #111;
+    padding: 5px;
+}
+
+.bottomrad {
+    top: 630px;
+}
+
+.toprad {
+    bottom: 630px;
+}
+
+.leftrad {
+    left: 530px;
+}
+
+.rightrad {
+    right: 530px;
+}
+
+.box {
+    background-color: #eee;
+    height: 450px;
+    width: 450px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
